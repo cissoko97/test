@@ -1,0 +1,8 @@
+<div #sidebar (click)="toggleSideBar()" class="sidebar hidden">
+  <app-sidebar-item class="hidden" [icon]="'reorder'"></app-sidebar-item>
+  <app-sidebar-item class="hidden" [icon]="'home'" [label]="'Bonjour'"></app-sidebar-item>
+  <app-sidebar-item class="hidden" [icon]="'grading'" [label]="'Bonsoir'"></app-sidebar-item>
+  <app-sidebar-item class="hidden" [icon]="'https'" [label]="'Bonne nuit'"></app-sidebar-item>
+  <app-sidebar-item class="hidden" [icon]="'settings'" [label]="'Parameters'"></app-sidebar-item>
+</div>
+<router-outlet></router-outlet>
